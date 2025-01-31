@@ -292,7 +292,7 @@ h1 {
     background: linear-gradient(to bottom left, #7CE83F 0%, #2D3529 100%);
     padding: 50px;
     border-radius: 20px 20px 20px 0;
-    border-style: outset;
+    border: solid #EBF3EF;
     width: auto;
     left: 29%;
     bottom: 8%;
@@ -395,53 +395,20 @@ h1>br:nth-child(3) {
 
 /* #region menu */
 .menu {
-    
-}
+   background: #171E1A;
+   display: flex; 
+   justify-content: center;
+       }
 
 .menu:target {
    
 }
 
-.menu__top {
-   
-}
-
-/* #endregion */
-
-
-/* #region nav */
-.nav {
-    /* display: flex;
-    flex-direction: column;
-    gap: 32px; */
-}
-
 .nav__link {
-    /* color: #292929;
+    color: white;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 22px;
-    text-transform: uppercase;
-    letter-spacing: 2px; */
+    padding: 8px 16px;
+    display: flex; 
+    justify-content: center;
+  
 }
-
-.nav__link:hover {
-    text-decoration: underline;
-}
-
-/* #endregion */
-
-
-/* #region main */
-.main {
-    /* padding: 120px;
-    background-color: white; */
-}
-
-/* #endregion */
-
-
-/* #region */
-
-/* #endregion */
